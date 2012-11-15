@@ -15,6 +15,10 @@ public class Startklass {
 		
 		System.out.println("BloodMoon");
 		
+		for(int i=0; i<5; i++){
+			System.out.println("yeey");
+		}
+		
 	}
 
 }
