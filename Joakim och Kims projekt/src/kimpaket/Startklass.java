@@ -13,6 +13,8 @@ public class Startklass {
 		
 		System.out.println("Lol!");
 		
+		System.out.println("BloodMoon");
+		
 	}
 
 }
