@@ -9,6 +9,7 @@ public class Startklass {
 		// TODO Auto-generated method stub
 
 		//Vi borde ocks� se detta.
+		//Om vi ser detta så är allt lugnt
 		
 	}
 
