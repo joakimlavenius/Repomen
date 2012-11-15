@@ -11,7 +11,7 @@ public class Startklass {
 		//Vi borde ocks� se detta.
 		//Om vi ser detta så är allt lugnt
 		
-		System.out.println("Lol!");
+		System.out.println("Lol! Helvete!");
 		
 		System.out.println("BloodMoon");
 		
