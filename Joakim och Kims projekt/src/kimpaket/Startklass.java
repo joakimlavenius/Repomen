@@ -8,7 +8,7 @@ public class Startklass {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		
+		//Vi borde också se detta.
 		
 	}
 
