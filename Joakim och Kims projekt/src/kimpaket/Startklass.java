@@ -19,6 +19,8 @@ public class Startklass {
 			System.out.println("yeey");
 		}
 		
+		System.out.println("nu jävlar kör vi!!!");
+		
 	}
 
 }
