@@ -8,7 +8,7 @@ public class Lion extends Animal {
 	}
 	public void eat(){
 		System.out.println("The lion eats an innocent antilope!");
-		hunger =+ 10;
+		hunger += 10;
 	}
 	
 }

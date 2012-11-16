@@ -10,6 +10,7 @@ public class Startklass {
 
 		Lion simba = new Lion();
 		simba.eat();
+		System.out.println(simba.hunger);
 		
 	}
 
