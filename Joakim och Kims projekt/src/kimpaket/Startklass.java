@@ -13,7 +13,7 @@ public class Startklass {
 		//Gör en "djurnamn = null" och numberOfAnimal++ eller numberOfAnimal-- vid behov.
 		int numberOfAntiloop = 0;
 		int numberOfCarcass = 0;
-		int numberOfHyena = 0;
+		int numberOfHyena = 2;
 		int numberOfLion = 0;
 		
 		
@@ -23,9 +23,19 @@ public class Startklass {
 		simba.eat(numberOfAntiloop, numberOfHyena);
 		System.out.println(simba.hunger);
 		
-		simba = null;
-		numberOfLion--;
 		
+
+//		numberOfLion--;
+//		
+//		Antiloop africa = new Antiloop();
+//		africa.eat();
+//		
+//		System.out.println("Antiloop:");
+//		africa.dying();
+//		numberOfAntiloop--;
+//		africa = null;
+//		
+
 		
 				
 		Antiloop africa = new Antiloop();
@@ -37,6 +47,7 @@ public class Startklass {
 		numberOfAntiloop--;
 		africa.dying();
 		
+
 		//Antal djur och lik i parken
 		System.out.println("Det finns " + numberOfLion + " lejon, " + numberOfHyena 
 		+ " hyenor, " + numberOfAntiloop + " antiloper och " + numberOfCarcass + " ouppätna lik i savannen.");

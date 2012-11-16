@@ -14,9 +14,11 @@ public class Antiloop extends Animal {
 		System.out.println("namnamnam, fresh green grass.. yummie!");
 	}
 	
-	public void dying(){
-		hunger = 0;
+	public Object dying(){
 		System.out.println("Shiit I'm dead!");
+	
+			return null;
+		
 	}
 	
 }

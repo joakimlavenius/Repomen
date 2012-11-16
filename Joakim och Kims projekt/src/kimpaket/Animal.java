@@ -11,8 +11,9 @@ public class Animal {
 		hunger = 5;
 	}
 	
-	public void dying(){
-		
+
+	public Object dying(){
+		return null;
 	}
 	
 	
