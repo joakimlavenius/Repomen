@@ -10,7 +10,7 @@ public class Antiloop extends Animal {
 	}
 	
 	public void eat(){
-		eat = 1;
+		hunger = 1;
 		System.out.println("namnamnam, fresh green grass.. yummie!");
 	}
 	
