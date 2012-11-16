@@ -9,8 +9,8 @@ public class Startklass {
 		// TODO Auto-generated method stub
 
 		
-		//Variabler fï¿½r antalet djur. Om ett djur dï¿½r eller blir lik, ï¿½ndra pï¿½ dessa.
-		//Gï¿½r en "djurnamn = null" och numberOfAnimal++ eller numberOfAnimal-- vid behov.
+		//Variabler f�r antalet djur. Om ett djur d�r eller blir lik, �ndra p� dessa.
+		//G�r en "djurnamn = null" och numberOfAnimal++ eller numberOfAnimal-- vid behov.
 		int numberOfAntiloop = 0;
 		int numberOfCarcass = 0;
 		int numberOfHyena = 0;
@@ -18,14 +18,13 @@ public class Startklass {
 		
 		
 		//Exempel
-		//Exempel
-				Lion simba = new Lion();
-				numberOfLion++;
-				simba.eat(numberOfAntiloop, numberOfHyena);
-				System.out.println(simba.hunger);
-				
-				simba = null;
-				numberOfLion--;
+		Lion simba = new Lion();
+		numberOfLion++;
+		simba.eat(numberOfAntiloop, numberOfHyena);
+		System.out.println(simba.hunger);
+		
+		simba = null;
+		numberOfLion--;
 		
 		
 				
@@ -40,7 +39,7 @@ public class Startklass {
 		
 		//Antal djur och lik i parken
 		System.out.println("Det finns " + numberOfLion + " lejon, " + numberOfHyena 
-		+ " hyenor, " + numberOfAntiloop + " antiloper och " + numberOfCarcass + " ouppï¿½tna lik i savannen.");
+		+ " hyenor, " + numberOfAntiloop + " antiloper och " + numberOfCarcass + " ouppätna lik i savannen.");
 	}
 
 }
