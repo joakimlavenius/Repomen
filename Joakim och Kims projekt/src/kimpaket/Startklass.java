@@ -11,6 +11,12 @@ public class Startklass {
 		Lion simba = new Lion();
 		simba.eat();
 		
+		Antiloop africa = new Antiloop();
+		africa.eat();
+		
+		System.out.println("Antiloop:");
+		africa.dying();
+		
 	}
 
 }

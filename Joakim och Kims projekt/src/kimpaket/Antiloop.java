@@ -5,14 +5,21 @@ public class Antiloop extends Animal {
 	
 	
 	public Antiloop(){
-		hunger = 1;
+		hunger = 5;
 		System.out.println("Oh i'm hungry!");
 	}
 	
 	public void eat(){
-		eat = 1;
+		hunger = 5;
 		System.out.println("namnamnam, fresh green grass.. yummie!");
 	}
+	
+	public void dying(){
+		hunger =0;
+		System.out.println("Shiit I'm dead!");
+	}
+	
+	
 	
 	
 
