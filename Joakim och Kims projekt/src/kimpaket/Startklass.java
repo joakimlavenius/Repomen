@@ -9,8 +9,8 @@ public class Startklass {
 		// TODO Auto-generated method stub
 
 		
-		//Variabler för antalet djur. Om ett djur dör eller blir lik, ändra på dessa.
-		//Gör en "djurnamn = null" och numberOfAnimal++ eller numberOfAnimal-- vid behov.
+		//Variabler fï¿½r antalet djur. Om ett djur dï¿½r eller blir lik, ï¿½ndra pï¿½ dessa.
+		//Gï¿½r en "djurnamn = null" och numberOfAnimal++ eller numberOfAnimal-- vid behov.
 		int numberOfAntiloop = 0;
 		int numberOfCarcass = 0;
 		int numberOfHyena = 0;
@@ -26,10 +26,15 @@ public class Startklass {
 		simba = null;
 		numberOfLion--;
 		
+		Antiloop africa = new Antiloop();
+		africa.eat();
+		
+		System.out.println("Antiloop:");
+		africa.dying();
 		
 		//Antal djur och lik i parken
 		System.out.println("Det finns " + numberOfLion + " lejon, " + numberOfHyena 
-		+ " hyenor, " + numberOfAntiloop + " antiloper och " + numberOfCarcass + " ouppätna lik i savannen.");
+		+ " hyenor, " + numberOfAntiloop + " antiloper och " + numberOfCarcass + " ouppÃ¤tna lik i savannen.");
 	}
 
 }
