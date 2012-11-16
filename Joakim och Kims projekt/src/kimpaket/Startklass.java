@@ -27,10 +27,15 @@ public class Startklass {
 				simba = null;
 				numberOfLion--;
 		
+		
+				
 		Antiloop africa = new Antiloop();
+		numberOfAntiloop++;
+		System.out.println("Antiloop:");
 		africa.eat();
 		
 		System.out.println("Antiloop:");
+		numberOfAntiloop--;
 		africa.dying();
 		
 		//Antal djur och lik i parken

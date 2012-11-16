@@ -12,7 +12,7 @@ public class Animal {
 	}
 	
 	public void dying(){
-		hunger = 0;
+		
 	}
 	
 	
