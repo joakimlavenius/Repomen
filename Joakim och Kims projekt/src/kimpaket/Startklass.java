@@ -24,6 +24,7 @@ public class Startklass {
 		System.out.println(simba.hunger);
 		
 		
+<<<<<<< HEAD
 //		numberOfLion--;
 //		
 //		Antiloop africa = new Antiloop();
@@ -34,6 +35,19 @@ public class Startklass {
 //		numberOfAntiloop--;
 //		africa = null;
 //		
+=======
+		
+				
+		Antiloop africa = new Antiloop();
+		numberOfAntiloop++;
+		System.out.println("Antiloop:");
+		africa.eat();
+		
+		System.out.println("Antiloop:");
+		numberOfAntiloop--;
+		africa.dying();
+		
+>>>>>>> branch 'master' of git@github.com:joakimlavenius/Repomen.git
 		//Antal djur och lik i parken
 		System.out.println("Det finns " + numberOfLion + " lejon, " + numberOfHyena 
 		+ " hyenor, " + numberOfAntiloop + " antiloper och " + numberOfCarcass + " ouppätna lik i savannen.");

@@ -11,8 +11,13 @@ public class Animal {
 		hunger = 5;
 	}
 	
+<<<<<<< HEAD
 	public Object dying(){
 		return null;
+=======
+	public void dying(){
+		
+>>>>>>> branch 'master' of git@github.com:joakimlavenius/Repomen.git
 	}
 	
 	
