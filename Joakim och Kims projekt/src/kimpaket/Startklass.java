@@ -8,16 +8,7 @@ public class Startklass {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		//Vi borde ocks� se detta.
-		//Om vi ser detta så är allt lugnt
-		
-		System.out.println("Lol! Helvebeaggarraaagagagagate!");
-		
-		System.out.println("BloodMoon");
-		
-		for(int i=0; i<5; i++){
-			System.out.println("yeey");
-		}
+		//Jag tar bort allt onödigt.
 		
 		System.out.println("nu jävlar kör vi!!!");
 		
