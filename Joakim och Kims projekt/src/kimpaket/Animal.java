@@ -9,8 +9,14 @@ public class Animal {
 	
 	//Alla djur ska ha sin egen version av eat.
 	public void eat(){
-		hunger =+ 5;
+		hunger = 5;
 	}
+	
+
+	public Object dying(){
+		return null;
+	}
+	
 	
 	
 	
