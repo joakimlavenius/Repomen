@@ -9,8 +9,8 @@ public class Startklass {
 		// TODO Auto-generated method stub
 
 		
-		//Variabler f�r antalet djur. Om ett djur d�r eller blir lik, �ndra p� dessa.
-		//G�r en "djurnamn = null" och numberOfAnimal++ eller numberOfAnimal-- vid behov.
+		//Variabler för antalet djur. Om ett djur dör eller blir lik, ändra på dessa.
+		//Gör en "djurnamn = null" och numberOfAnimal++ eller numberOfAnimal-- vid behov.
 		int numberOfAntiloop = 0;
 		int numberOfCarcass = 0;
 		int numberOfHyena = 0;
