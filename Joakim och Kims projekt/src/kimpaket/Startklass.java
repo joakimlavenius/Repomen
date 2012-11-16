@@ -11,6 +11,8 @@ public class Startklass {
 		Lion simba = new Lion();
 		simba.eat();
 		
+		Hyena h1 = new Hyena();
+		h1.eat();
 	}
 
 }
