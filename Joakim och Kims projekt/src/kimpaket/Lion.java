@@ -15,9 +15,14 @@ public class Lion extends Animal {
 			System.out.println("The lion can't find an antilope and eats a mangy hyena instead!");
 			hunger += 5;
 		}
+
+		//else DÖDSFALL
+		
+
 		else if (hunger == 0){
 			this.dying();
 		}
+
 	}
 	
 	public Object dying(){
